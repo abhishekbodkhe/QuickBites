@@ -1,0 +1,46 @@
+package com.app.project.main.security;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.authentication.BadCredentialsException;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.app.project.main.entities.User;
+import com.app.project.main.repositories.UserRepository;
+
+@Service
+@Transactional
+public class CustomUserDetailsServiceImpl implements UserDetailsService {
+//depcy
+	@Autowired
+	private UserRepository userEntityRepository;
+
+	@Autowired
+	private PasswordEncoder passwordEncoder;
+
+	@Override
+	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+		User user = userRepository.findByEmail(username)
+				.orElseThrow(() -> new UsernameNotFoundException("User not found"));
+
+		// You can convert roles to authorities like this:
+		List<GrantedAuthority> authorities = Arrays.stream(user.getRoles())
+				.map(role -> new SimpleGrantedAuthority(role.name())).collect(Collectors.toList());
+
+		return new org.springframework.security.core.userdetails.User(user.getEmail(), user.getPassword(), authorities);
+	}
+
+//	@Override
+//	public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
+//		// invoke dao' s method
+//		User userEntity = userEntityRepository.findByEmail(email)
+//				.orElseThrow(() -> new UsernameNotFoundException("Email not found !!!!!"));
+//
+//		return new CustomUserDetailsImpl(userEntity);
+//	}
+
+}

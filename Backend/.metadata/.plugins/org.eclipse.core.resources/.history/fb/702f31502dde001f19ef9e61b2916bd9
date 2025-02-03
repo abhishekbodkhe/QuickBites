@@ -1,0 +1,34 @@
+package com.app.project.main.services.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.app.project.main.dto.LoginDto;
+import com.app.project.main.dto.LoginResponseDto;
+
+@Service
+public class AuthServiceImpl {
+
+	public LoginResponseDto login(LoginDto loginDto) {
+		// Validate loginDto and authenticate the user
+		// Example of checking if the login is valid:
+
+		if (isValidLogin(loginDto)) {
+			LoginResponseDto responseDto = new LoginResponseDto();
+			responseDto.setRefreshToken(generateRefreshToken(loginDto));
+			return responseDto;
+		}
+
+		// If invalid login, throw an exception or return null
+		return null; // Or throw an exception like AuthenticationException
+	}
+
+	private boolean isValidLogin(LoginDto loginDto) {
+		// Add authentication logic here
+		return true; // Example, change based on your logic
+	}
+
+	private String generateRefreshToken(LoginDto loginDto) {
+		// Your logic to generate refresh token
+		return "some-refresh-token"; // Example
+	}
+}

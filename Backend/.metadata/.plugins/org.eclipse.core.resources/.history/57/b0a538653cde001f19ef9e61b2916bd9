@@ -1,0 +1,10 @@
+//package com.app.project.main.services;
+//
+//import com.app.project.main.dto.LoginDto;
+//import com.app.project.main.dto.LoginResponseDto;
+//
+//public interface AuthService {
+//	public LoginResponseDto login(LoginDto loginDto);
+//
+//	public LoginResponseDto refreshToken(String refreshToken);
+//}

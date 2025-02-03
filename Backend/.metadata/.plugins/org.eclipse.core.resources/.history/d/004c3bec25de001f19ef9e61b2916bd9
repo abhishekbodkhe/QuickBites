@@ -1,0 +1,5 @@
+package com.app.project.main.config;
+
+public class PasswordEncoder {
+
+}
