@@ -364,3 +364,69 @@
 2025-02-06 15:21:36,390 [Worker-36: Launching QuickBites_Backend - QuickBitesBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-02-06 15:21:36,417 [Worker-36: Launching QuickBites_Backend - QuickBitesBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-02-06 15:21:36,420 [Worker-36: Launching QuickBites_Backend - QuickBitesBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\src\test\resources
+2025-02-06 15:41:39,273 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-06 15:41:39,290 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-06 15:41:39,292 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\src\test\resources
+2025-02-06 19:35:28,272 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.quickbites:QuickBites_Backend:0.0.1-SNAPSHOT @ C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\pom.xml.
+2025-02-06 19:35:29,990 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /QuickBites_Backend/src/main/java
+2025-02-06 19:35:29,991 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /QuickBites_Backend/src/main/resources
+2025-02-06 19:35:29,994 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /QuickBites_Backend/src/main/resources
+2025-02-06 19:35:29,996 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /QuickBites_Backend/src/test/java
+2025-02-06 19:35:29,996 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /QuickBites_Backend/src/test/resources
+2025-02-06 19:35:30,511 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2025-02-06 19:35:30,514 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-02-06 19:35:30,875 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.quickbites:QuickBites_Backend:0.0.1-SNAPSHOT @ C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\pom.xml.
+2025-02-06 19:35:31,318 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /QuickBites_Backend/src/main/java
+2025-02-06 19:35:31,320 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /QuickBites_Backend/src/main/resources
+2025-02-06 19:35:31,321 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /QuickBites_Backend/src/main/resources
+2025-02-06 19:35:31,321 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /QuickBites_Backend/src/test/java
+2025-02-06 19:35:31,322 [Worker-33: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /QuickBites_Backend/src/test/resources
+2025-02-06 19:35:31,669 [Worker-33: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-02-06 19:35:32,300 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-06 19:35:32,318 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-06 19:35:32,323 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\src\test\resources
+2025-02-06 19:36:36,766 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-06 19:36:36,771 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-06 19:36:36,778 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\src\test\resources
+2025-02-06 19:38:39,077 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-06 19:38:39,089 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-06 19:38:39,095 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\src\test\resources
+2025-02-06 19:38:53,442 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-06 19:38:53,446 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-06 19:38:53,450 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\src\test\resources
+2025-02-06 19:40:38,962 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-06 19:40:38,967 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-06 19:40:38,970 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\src\test\resources
+2025-02-06 19:40:55,151 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-06 19:40:55,156 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-06 19:40:55,161 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\src\test\resources
+2025-02-06 19:41:03,157 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-06 19:41:03,168 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-06 19:41:03,171 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\src\test\resources
+2025-02-06 19:41:49,371 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-06 19:41:49,375 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-06 19:41:49,379 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\src\test\resources
+2025-02-06 19:41:59,838 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-06 19:41:59,841 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-06 19:41:59,844 [Worker-42: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\src\test\resources
+2025-02-06 19:42:13,768 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-06 19:42:13,771 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-06 19:42:13,773 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\src\test\resources
+2025-02-06 19:42:58,303 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-06 19:42:58,306 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-06 19:42:58,310 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\src\test\resources
+2025-02-06 19:43:02,082 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-06 19:43:02,085 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-06 19:43:02,089 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\src\test\resources
+2025-02-06 19:43:13,367 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-06 19:43:13,370 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-06 19:43:13,373 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\src\test\resources
+2025-02-06 19:43:25,193 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-06 19:43:25,197 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-06 19:43:25,200 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\src\test\resources
+2025-02-06 19:43:34,990 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-06 19:43:34,994 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-06 19:43:34,999 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\src\test\resources
+2025-02-06 19:43:45,933 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-02-06 19:43:45,937 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-06 19:43:45,940 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abhis\OneDrive\Desktop\CDAC_PROJECT\QuickBites\QuickBites_Backend\src\test\resources
