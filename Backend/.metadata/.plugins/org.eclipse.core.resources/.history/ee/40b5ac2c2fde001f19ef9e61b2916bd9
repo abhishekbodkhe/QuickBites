@@ -1,9 +1,0 @@
-package com.app.project.main.dto;
-
-
-public class AuthRequestDTO {
-    private String email;
-    private String password;
-
-    // Getters and Setters
-}
