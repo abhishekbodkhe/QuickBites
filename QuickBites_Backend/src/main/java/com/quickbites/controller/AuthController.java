@@ -1,5 +1,6 @@
 package com.quickbites.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.BadCredentialsException;
@@ -43,28 +44,21 @@ import java.util.List;
 @RequestMapping("/auth")
 public class AuthController {
 
+	@Autowired
 	private UserRepository userRepository;
+	@Autowired
 	private PasswordEncoder passwordEncoder;
+	@Autowired
 	private JwtProvider jwtProvider;
+	@Autowired
 	private CustomeUserServiceImplementation customUserDetails;
+	@Autowired
 	private CartRepository cartRepository;
-
+	@Autowired
 	private PasswordResetTokenService passwordResetTokenService;
-
+	@Autowired
 	private UserService userService;
 
-	public AuthController(UserRepository userRepository, PasswordEncoder passwordEncoder, JwtProvider jwtProvider,
-			CustomeUserServiceImplementation customUserDetails, CartRepository cartRepository,
-			PasswordResetTokenService passwordResetTokenService, UserService userService) {
-		this.userRepository = userRepository;
-		this.passwordEncoder = passwordEncoder;
-		this.jwtProvider = jwtProvider;
-		this.customUserDetails = customUserDetails;
-		this.cartRepository = cartRepository;
-		this.passwordResetTokenService = passwordResetTokenService;
-		this.userService = userService;
-
-	}
 
 	@PostMapping("/signup")
 	public ResponseEntity<AuthResponse> createUserHandler(@Valid @RequestBody User user) throws UserException {
@@ -153,6 +147,5 @@ public class AuthController {
 		}
 		return new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
 	}
-
 
 }
