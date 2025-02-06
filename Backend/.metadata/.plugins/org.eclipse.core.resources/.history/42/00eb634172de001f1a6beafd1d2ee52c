@@ -1,5 +1,0 @@
-package com.app.project.main.entities.enums;
-
-public enum Role {
-	ADMIN, CUSTOMER, RESTAURANT_OWNER, DELIVERY_PERSON
-}
