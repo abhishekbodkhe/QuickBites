@@ -4,6 +4,7 @@ package com.quickbites.dto;
 import java.util.List;
 
 import com.quickbites.entities.Category;
+import com.quickbites.entities.IngredientsItem;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -30,7 +31,7 @@ public class CreateFoodRequest {
     private boolean vegetarian;
     private boolean seasonal;
     
-    
+    private List<IngredientsItem> ingredients;
 	
 
 }
