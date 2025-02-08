@@ -147,5 +147,52 @@ public class AuthController {
 		}
 		return new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
 	}
+	@PostMapping("/reset-password")
+	public ResponseEntity<ApiResponse> resetPassword(
+
+			@RequestBody ResetPasswordRequest req) throws UserException {
+
+		PasswordResetToken resetToken = passwordResetTokenService.findByToken(req.getToken());
+
+		if (resetToken == null) {
+			throw new UserException("token is required...");
+		}
+		if (resetToken.isExpired()) {
+			passwordResetTokenService.delete(resetToken);
+			throw new UserException("token get expired...");
+
+		}
+
+		// Update user's password
+		User user = resetToken.getUser();
+		userService.updatePassword(user, req.getPassword());
+
+		// Delete the token
+		passwordResetTokenService.delete(resetToken);
+
+		ApiResponse res = new ApiResponse();
+		res.setMessage("Password updated successfully.");
+		res.setStatus(true);
+
+		return ResponseEntity.ok(res);
+	}
+
+	@PostMapping("/reset-password-request")
+	public ResponseEntity<ApiResponse> resetPassword(@RequestParam("email") String email) throws UserException {
+		User user = userService.findUserByEmail(email);
+		System.out.println("ResetPasswordController.resetPassword()");
+
+		if (user == null) {
+			throw new UserException("user not found");
+		}
+
+		userService.sendPasswordResetEmail(user);
+
+		ApiResponse res = new ApiResponse();
+		res.setMessage("Password reset email sent successfully.");
+		res.setStatus(true);
+
+		return ResponseEntity.ok(res);
+	}
 
 }
